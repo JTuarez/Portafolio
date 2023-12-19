@@ -21,7 +21,7 @@
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
@@ -63,7 +63,7 @@
                     <ul>
                         <li>
                             <strong>Cumpleaños</strong>
-                            16-09-1998
+                            16/09/1998
                         </li>
                         <li>
                             <strong>Teléfono</strong>
@@ -75,11 +75,11 @@
                         </li>
                         <li>
                             <strong>Website</strong>
-                            www.jordytuarez.com
+                            jordytuarez.com
                         </li>
                         <li>
                             <strong>Dirección</strong>
-                            Santiago de Chile Recoleta
+                            Santiago de Chile
                         </li>
                         <li>
                             <strong>Cargo</strong>
@@ -90,26 +90,25 @@
 
                 <!-- intereses -->
                 <div class="col">
-                    <H3>Intereses</H3>
+                    <h3>Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-gamepad"></i>
                             <span>JUEGOS</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-person-snowboarding"></i>
-                            <span>Deporte</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-music"></i>
+                            <i class="fa-solid fa-headphones"></i>
                             <span>MUSICA</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <span>SHOPPING</span>
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
                         </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>                       
                     </div>
-                </div>
                 </div>
             </div>
             <button>
@@ -144,15 +143,15 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Phyton</span>
+                        <span>PHP</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>95%</span>
+                                <span>70%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>SQL</span>
+                        <span>Git</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>81%</span>
@@ -160,7 +159,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Git</span>
+                        <span>SQL</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>55%</span>
@@ -191,7 +190,7 @@
                         <span>Creatividad</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>99%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -199,7 +198,7 @@
                         <span>Dedicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -247,7 +246,7 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>FTecnico de proyectos TI</h4>
+                        <h4>Tecnico de proyectos TI</h4>
                         <span class="casa">KLG Consulting</span>
                         <span class="fecha">2020 - 2021</span>
                         <p>Administracion de Suite Microsfot 365Gestion de maquinas virtuales dentro de servidores de la empresa (implementacion) Encargado de implementar y administrar las redes internas de comunicacion de la empresa .Encargado de brindar soporte tecnico nivel 2 a los clientes internos y externos de la empresa. Homologacion de dispositivos como Gateways en la Subtel. Administracion de equipos tecnologicos de la empresa.
@@ -272,15 +271,51 @@
     </section>
 
     <!-- SECCION PORTFOLIO -->
-        <section id="portafolio" class="portafolio">
-        <div class="contenido-section">
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
             <h2>PORTAFOLIO</h2>
-            <h1>Trabajando en mis proyectos</h1>
             <div class="galeria">
                 <div class="proyecto">
-             <img src="img/proximamente.jpg" alt="">  
+                    <img src="img/p1.jpg" alt="">
                     <div class="overlay">
-                    </div>               
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,19 +326,18 @@
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
-                <!-- Formulario -->               
+                <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" name="nombre" placeholder="Tú Nombre">
+                    <input type="text" name ="telefono" placeholder="Número telefónico">
+                    <input type="text" name="correo" placeholder="Dirección de correo">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="msj" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
-    
                 <!-- Mapa -->
                 <div class="col">
                     <img src="img/casa.png" alt="">
@@ -311,11 +345,11 @@
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
-                                Santiago de Chile Recoleta
+                                Santiago de Chile
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 994121475
+                                Llamanos: 569 - 94121475
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
@@ -334,9 +368,10 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="https://www.linkedin.com/in/jordy-tuarez-23b390166/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/jordy-tuarez-23b390166/"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
