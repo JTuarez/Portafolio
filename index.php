@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -326,18 +327,50 @@
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
-                <!-- Formulario -->
+                <!-- Formulario -->  
+                             
                 <div class="col">
-                    <input type="text" name="nombre" placeholder="Tú Nombre">
-                    <input type="text" name ="telefono" placeholder="Número telefónico">
-                    <input type="text" name="correo" placeholder="Dirección de correo">
-                    <input type="text" name="tema" placeholder="Tema">
-                    <textarea name="msj" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                <form action = "index.php" method="POST" >  
+                    <input type="text" name="nombre" placeholder="Tú Nombre" required="">
+                    <input type="number" name ="telefono" placeholder="Número telefónico" required="">
+                    <input type="email" name="correo" placeholder="Dirección de correo" required="">
+                    <input type="text" name="tema" placeholder="Tema" required="">
+                    <textarea name="msj" id="msj" cols="30" rows="10" placeholder="Mensaje"></textarea>                   
+                   <input  type="submit" name="enviar">          
+                </form>
+
+                <?php
+
+                if(isset($_POST["enviar"])){
+                    $nombre = $_POST['nombre']; 
+                    $telefono = $_POST['telefono'];
+                    $correo = $_POST['correo'];
+                    $tema = $_POST['tema'];
+                    $msj = $_POST['msj'];
+                    
+
+                    $destinatario = "jordyalexjatr@hotmail.com";
+                    $asunto = "Nuevo mensaje de $correo ";
+
+                    $contenido="Nombre: $nombre \n";
+                    $contenido.="Correo: $correo \n";
+                    $contenido.= "Telefono $telefono \n";
+                    $contenido.="Mensaje: $msj";
+                    $contenido.= "Tema $tema";
+                    
+                    $header ="From: jordyalexjatr@hotmail.com";
+                    $correo = mail($destinatario, $asunto, $contenido, $header );
+                     
+                    if($correo){
+                        echo "<script>alert('El correo se envio correctamente') ;</script>";
+
+                    }else{
+                        echo "<script>alert('El correo no se envio') ;<script/>";
+                    }
+                }
+                  ?>
                 </div>
+                
                 <!-- Mapa -->
                 <div class="col">
                     <img src="img/casa.png" alt="">
@@ -348,7 +381,7 @@
                                 Santiago de Chile
                             </li>
                             <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
+                                <i c    lass="fa-solid fa-mobile-screen"></i>
                                 Llamanos: 569 - 94121475
                             </li>
                             <li>
