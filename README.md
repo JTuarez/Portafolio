@@ -1,4 +1,4 @@
-### Mi Portafolio<p>
+### Mi Portafolio<p> :fa-stack-overflow:
 Este es un proyecto creado para mostrar mi perfil profesional como desarrollador web, proyectos personales, descripcion personal, uso de tecnologias y soft kills.
 </p>
 
